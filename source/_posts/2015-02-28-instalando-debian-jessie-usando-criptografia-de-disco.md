@@ -7,16 +7,17 @@ categories:
 date: 2015-02-28 17:27:02
 ---
 
-O primeiro tema do blog é a instalação do Debian Jessie usando criptografia de disco. Escrevi o post porque consegui comprar meu primeiro notebook e ao contrário dos desktops que tive antes ... tenho de me preocupar com os dados em caso de perca ou roubo.
+O primeiro tema do blog é a instalação do Debian Jessie usando criptografia de disco. Escrevi o post porque consegui comprar meu primeiro notebook e ao contrário dos desktops que tive antes ... tenho de me preocupar com os dados em caso de ~~perca~~ perda ou roubo.
 
-A melhor maneira de se prevenir contra perca ou roubo é criptografando os dados e para tanto optei em instalar o Debian numa partição completamente criptografada. Assim ... nem a PF consegue os dados :D.
+A melhor maneira de se prevenir contra ~~perca~~ perda ou roubo é criptografando os dados e para tanto optei em instalar o Debian numa partição completamente criptografada. Assim ... nem a PF consegue os dados :D.
 
 O post **não** é indicado para quem nunca instalou um GNU/Linux na vida (não desista, há vários por aí :D), mas para quem nunca instalou um Debian.
 
 A versão do Debian que optei é a Jessie (v8), ela está quase saindo do forno (é **testing** mas está em *freeze*, portanto só aceita correção de bugs). Existem pouquíssimos bugs nela (me deparei mais com eles na instalação do que no uso do dia-a-dia) e certamente o que está aqui valerá para a versão final que sairá em algumas semanas.
 
-{% asset_img jessie.png 100 "Jessie - Mascote do Debian 8" %}
+{% asset_img jessie.png "Jessie - Mascote do Debian 8" %}
 
+<!-- more -->
 
 **Bom, vamos lá:**
 

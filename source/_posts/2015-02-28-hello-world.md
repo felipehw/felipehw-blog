@@ -7,9 +7,11 @@ date: 2015-02-28 16:48:39
 
 Quem é vivo sempre aparece, o [primeiro blog que criei](https://lowdread.wordpress.com/) (julho de 2010) entrou em hibernação profunda em julho de 2012. Na época eu estava me formando em História, entrando no curso de Gestão de T.I e especulava que ele poderia voltar no futuro mas sem promessas.
 
-{% asset_img paradox-clock.jpg 250 "Direto de 2012 para 2015" %}
+{% asset_img paradox-clock.jpg "Direto de 2012 para 2015" %}
 
 Pois bem, voltamos com a segunda edição do blog justamente após o final do curso de Gestão de T.I. Quem sabe agora tenha mais tempo (só trabalho, ao invés de trabalho + estudo).
+
+<!-- more -->
 
 Recuperando a explicação da criação do 1ro blog:
 
