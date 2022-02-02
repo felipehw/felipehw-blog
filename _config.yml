@@ -71,8 +71,8 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  #repo: git@github.com:felipehw/felipehw.github.io.git
-  repo: https://github.com/felipehw/felipehw.github.io.git
+  repo: git@github.com:felipehw/felipehw.github.io.git
+  #repo: https://github.com/felipehw/felipehw.github.io.git
 
 # Server
 ## Hexo uses Connect as a server
