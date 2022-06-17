@@ -8,7 +8,7 @@ subtitle: software & cultura livre
 description: free software, free culture, copyleft, etc.
 author: felipehw
 email: felipehw@gmail.com
-language: pt-BR
+language: pt-br # pt-BR
 timezone: America/Sao_Paulo
 
 # URL
@@ -67,8 +67,31 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: light # landscape
+theme: cactus #light # landscape
 exclude_generator:
+
+# Navigation Menu (used by cactus theme)
+theme_config:
+  #colorscheme: white #dark, light, white, classic
+  nav:
+    home: /
+    about: /about/
+    articles: /archives/
+    search: /search/
+    projects: https://github.com/felipehw
+  social_links:
+    github: https://github.com/felipehw
+    twitter: https://twitter.com/felipehw/
+  posts_overview:
+    show_all_posts: false
+    post_count: 7
+  rss: atom.xml
+  disqus:
+    enabled: true
+    shortname: felipehwgithubiogit
+
+# Disqus
+disqus_shortname: felipehwgithubiogit
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -85,9 +108,6 @@ server:
   port: 4000
   log: true
   ip: 0.0.0.0
-
-# Disqus
-disqus_shortname: felipehwgithubiogit
 
 # Archives
 ## 2: Enable pagination
