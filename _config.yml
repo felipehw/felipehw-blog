@@ -4,8 +4,8 @@
 
 # Site
 title: $ls /home/felipehw
-subtitle: software & cultura livre
-description: free software, free culture, copyleft, etc.
+subtitle: Um blog num mundo de redes sociais.
+description: Um blog num mundo de redes sociais.
 author: felipehw
 email: felipehw@gmail.com
 language: pt-br # pt-BR
@@ -72,32 +72,50 @@ exclude_generator:
 
 # Navigation Menu (used by cactus theme)
 theme_config:
-    #colorscheme: white #dark, light, white, classic
+    ##############################################################################
+    # Content
+    ##############################################################################
     nav:
         home: /
         about: /about/
         articles: /archives/
         search: /search/
-        projects: https://github.com/felipehw
+        tag: /tags/
+        category: /categories/
+        #projects: https://github.com/felipehw
     social_links:
-        - icon: github
-          link: https://github.com/felipehw
-        - icon: twitter
-          label: '@felipehw'
-          link: https://twitter.com/felipehw/
-        #- icon: bluesky
-        #  label: '@felipehw.bsky.social'
-        #  link: 'https://bsky.app/profile/felipehw.bsky.social'
+        #- icon: github
+        #  link: https://github.com/felipehw
+        #- icon: twitter
+        #  label: '@felipehw'
+        #  link: https://twitter.com/felipehw/
+        - icon: bluesky
+          label: '@felipehw.bsky.social'
+          link: 'https://bsky.app/profile/felipehw.bsky.social'
+    # Customize the overview with displaying a tagcloud on the index page.
+    # Options: https://hexo.io/docs/helpers.html#tagcloud
+    tags_overview: true
     posts_overview:
         show_all_posts: false
         post_count: 7
+        sort_updated: false
+    copyright:
+        start_year: 2015
+        end_year:
+    ##############################################################################
+    # Look and Feel
+    ##############################################################################
+    colorscheme: light #dark, light, white, classic
+    ##############################################################################
+    # Miscellaneous
+    ##############################################################################
     rss: atom.xml
+    ##############################################################################
+    # Plugins
+    ##############################################################################
     disqus:
         enabled: true
         shortname: felipehwgithubiogit
-
-# Disqus
-disqus_shortname: felipehwgithubiogit
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
