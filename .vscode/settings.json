@@ -1,0 +1,13 @@
+{
+    "explorer.excludeGitIgnore": false,
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/.deploy": true,
+        "**/.deploy_git": true,
+        "**/node_modules": true,
+        "**/public": true,
+        "**/coverage": true,
+        "**/temp": true,
+        "**/themes": true
+    }
+}
