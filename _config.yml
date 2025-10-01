@@ -33,19 +33,19 @@ new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
-  enable: true # Open external links in new tab
+    enable: true # Open external links in new tab
 filename_case: 1
 render_drafts: false
 post_asset_folder: true
 marked:
-  prependRoot: true
-  postAsset: true
+    prependRoot: true
+    postAsset: true
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  tab_replace:
+    enable: true
+    line_number: true
+    tab_replace:
 
 # Category & Tag
 default_category: uncategorized
@@ -72,23 +72,29 @@ exclude_generator:
 
 # Navigation Menu (used by cactus theme)
 theme_config:
-  #colorscheme: white #dark, light, white, classic
-  nav:
-    home: /
-    about: /about/
-    articles: /archives/
-    search: /search/
-    projects: https://github.com/felipehw
-  social_links:
-    github: https://github.com/felipehw
-    twitter: https://twitter.com/felipehw/
-  posts_overview:
-    show_all_posts: false
-    post_count: 7
-  rss: atom.xml
-  disqus:
-    enabled: true
-    shortname: felipehwgithubiogit
+    #colorscheme: white #dark, light, white, classic
+    nav:
+        home: /
+        about: /about/
+        articles: /archives/
+        search: /search/
+        projects: https://github.com/felipehw
+    social_links:
+        - icon: github
+          link: https://github.com/felipehw
+        - icon: twitter
+          label: '@felipehw'
+          link: https://twitter.com/felipehw/
+        #- icon: bluesky
+        #  label: '@felipehw.bsky.social'
+        #  link: 'https://bsky.app/profile/felipehw.bsky.social'
+    posts_overview:
+        show_all_posts: false
+        post_count: 7
+    rss: atom.xml
+    disqus:
+        enabled: true
+        shortname: felipehwgithubiogit
 
 # Disqus
 disqus_shortname: felipehwgithubiogit
@@ -96,18 +102,18 @@ disqus_shortname: felipehwgithubiogit
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:felipehw/felipehw.github.io.git
-  #repo: https://github.com/felipehw/felipehw.github.io.git
+    type: git
+    repo: git@github.com:felipehw/felipehw.github.io.git
+    #repo: https://github.com/felipehw/felipehw.github.io.git
 
 # Server
 ## Hexo uses Connect as a server
 ## You can customize the logger format as defined in
 ## http://www.senchalabs.org/connect/logger.html
 server:
-  port: 4000
-  log: true
-  ip: 0.0.0.0
+    port: 4000
+    log: true
+    ip: 0.0.0.0
 
 # Archives
 ## 2: Enable pagination
